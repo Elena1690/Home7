@@ -60,6 +60,7 @@ h2 {
 header {
     max-width: 1920px;
     height: 700px;
+    margin-block-end: -250px;
 }
 .container {
     text-decoration: none;
@@ -94,14 +95,16 @@ header {
 .hero-section {
     display: inline-block;
     width: 100%;
-    padding: 40px 60px;
+    padding: 0 80px;
+    margin-top: -500px;
     background-color: rgba(238, 239, 241, 1);
 }
 
 .container1 h1 {
     width: 541px;
     height: 45px;
-    padding-bottom: 40px;
+    /* padding-left: 60px; */
+    
 }
 
 .container1 p {
@@ -113,7 +116,7 @@ header {
 .btn {
     display: inline-block;
     text-decoration: none;
-    background: blue;
+    background: rgba(52, 84, 122, 1);
     color: white;
     text-transform: uppercase;
     width: 225px;
@@ -132,6 +135,7 @@ header {
     max-width: 1920px;
     width: 100%;
     text-align: center;
+    margin-top: 40px;
 }
 
 .container2 {
